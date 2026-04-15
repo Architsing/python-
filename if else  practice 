@@ -1,0 +1,470 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPTUKHEUxMUxwSKXRFCTq8t",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Architsing/python-/blob/main/if%20else%20%20practice%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KxCa6fZ_GnXY",
+        "outputId": "21cc26ee-2149-4c02-dd9c-4e24ce578fb9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcome rahul\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = 'rahul'\n",
+        "\n",
+        "if a == 'mohan':\n",
+        "  print('welcome mohan')\n",
+        "\n",
+        "elif a == 'rahul':\n",
+        "  print('welcome rahul')\n",
+        "\n",
+        "else:\n",
+        "  print('welcome guest')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 'rahul'\n",
+        "\n",
+        "if a == 'mohan':\n",
+        "  print('welcome mohan')\n",
+        "\n",
+        "elif a == 'rahul':\n",
+        "  print('welcome rahul')\n",
+        "\n",
+        "else:\n",
+        "  print('welcome guest')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "G0-T163WGxdl",
+        "outputId": "fb003bc0-fe89-4eb5-c1ef-dea7ea9aa15d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcome rahul\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10\n",
+        "\n",
+        "if a >5:\n",
+        "  print('a is greater than 5')\n",
+        "\n",
+        "elif a == 10:\n",
+        "  print('a is equal to 5')\n",
+        "\n",
+        "else:\n",
+        "  print('a is less than 5')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vbZ19NI7GxEQ",
+        "outputId": "1333768c-8080-4983-c0c6-817aef138a4a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a is greater than 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10\n",
+        "\n",
+        "if a >5:\n",
+        "  print('a is greater than 5')\n",
+        "\n",
+        "elif a == 10:\n",
+        "  print('a is equal to 5')\n",
+        "\n",
+        "else:\n",
+        "  print('a is less than 5')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DbvtE1q_IBXx",
+        "outputId": "a7d1149f-c02c-45a3-ab87-a0a9a520ab6a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a is greater than 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10\n",
+        "\n",
+        "if a <5:\n",
+        "  print('a is greater than 5')\n",
+        "\n",
+        "if a == 9:\n",
+        "  print('a is equal to 5')\n",
+        "\n",
+        "if a < 5:\n",
+        "  print('sdfhsdkh')\n",
+        "\n",
+        "elif a ==10:\n",
+        "  print('a is equal to 5')\n",
+        "\n",
+        "elif a > 9:\n",
+        "  print('a is equal to 9')\n",
+        "\n",
+        "else:\n",
+        "  print('a is less than 5')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uNH-Sll2Iqpd",
+        "outputId": "116c233d-5754-4aca-b2f2-2ed779cb380d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a is equal to 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 10   # Statement 1 - Assignment statement\n",
+        "\n",
+        "if x <= 30 :\n",
+        "  print('x is greater than 10!')\n",
+        "\n",
+        "\n",
+        "else:\n",
+        "  print('x is less than 30!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "04DwYrd_Ir22",
+        "outputId": "47072f29-46af-4cc2-a655-2a9a1a57d810"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x is greater than 10!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "city = 'Pune'\n",
+        "\n",
+        "if city == 'New Delhi':\n",
+        "  print('Welcome to the Indian Capital')\n",
+        "elif city == 'Mumbai':\n",
+        "  print('Welcome to the Financial Capital of India!')\n",
+        "\n",
+        "elif city == 'pune':\n",
+        "  print('hello ')\n",
+        "else:\n",
+        "  print('sdkjfhliuaesd iulsgilu aljkas dkljhfelkjsh jksdhxjk')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SrCG4j7WIwdz",
+        "outputId": "f95ebd29-2144-404d-eb05-4da388a89b47"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sdkjfhliuaesd iulsgilu aljkas dkljhfelkjsh jksdhxjk\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "grade = 85\n",
+        "\n",
+        "if grade >= 90:\n",
+        "    print(\"You got an A\")\n",
+        "elif grade >= 80:\n",
+        "    print(\"You got a B\")\n",
+        "elif grade >= 70:\n",
+        "    print(\"You got a C\")\n",
+        "else:\n",
+        "    print(\"You need to study more\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "l12-EeFII-Uk",
+        "outputId": "97ed6c9a-8968-4485-dfd7-247ca803d4bc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "You got a B\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "string operations"
+      ],
+      "metadata": {
+        "id": "bgGNKJEkJdI4"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 'i am good'\n",
+        "\n",
+        "print(a[0])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nJK2MjE5JcOg",
+        "outputId": "b629dd91-f2e4-4453-bb7c-124c5474f41a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "i\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(a[3])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3ElPO6fwJlzA",
+        "outputId": "e8a4ad2a-e696-49fe-cc9b-4cb6ed136062"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "m\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(a[1:4])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "w0qWTSt0Jxgm",
+        "outputId": "562a917a-3894-47cb-b1db-ecaaf508b5e4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " am\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(a[2:5])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EZ-NdPT-J-gy",
+        "outputId": "f7081a74-aab3-4a11-d6ed-dc8039dde0ee"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "am \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def check_even_odd(n):\n",
+        "    if n % 2 == 0:\n",
+        "        return 'even'\n",
+        "    else:\n",
+        "        return 'odd'\n",
+        "\n",
+        "result = check_even_odd(4)\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Nu4FM7khOoJ2",
+        "outputId": "7b5354b5-d5a5-4ffe-d75a-00f36c48ffd4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "even\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = 10\n",
+        "if n%2 == 0:\n",
+        "  print('even')\n",
+        "else:\n",
+        "  print('odd')"
+      ],
+      "metadata": {
+        "id": "PK-KBhp2Out3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def calculate_avg\n",
+        "heights =  [172,175,170,168,170,200]\n",
+        "avg = sum(heights)/len(heights)\n",
+        "print(avg)"
+      ],
+      "metadata": {
+        "id": "20TT1gS2SK4Y",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 110
+        },
+        "outputId": "9fdcebd4-1307-458c-d69f-3a03e2bdedfd"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "expected '(' (3641372118.py, line 1)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_8578/3641372118.py\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    def calculate_avg\u001b[0m\n\u001b[0m                     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected '('\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
